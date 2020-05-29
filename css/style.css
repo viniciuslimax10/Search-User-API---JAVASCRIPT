@@ -1,0 +1,143 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container2 {
+  background-color: aqua;
+  margin-top: 20px;
+  padding: 50px;
+}
+.container {
+  height: auto;
+}
+
+#searching {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#searching input[type='text'] {
+  width: 92%;
+  border: none;
+  border-bottom: 5px solid;
+  margin-right: 5px;
+}
+
+#searching input[type='submit'] {
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: #00ffff;
+  color: #000000;
+  font-size: 1em;
+}
+.content {
+  width: 100%;
+}
+#users {
+  width: 49%;
+  float: left;
+  height: 100px;
+  text-align: center;
+  background-color: #eeecec;
+  border-radius: 2%;
+  height: auto;
+}
+#statistics {
+  width: 49%;
+  border-radius: 2%;
+  float: right;
+  text-align: center;
+  background-color: #eeecec;
+  border-radius: 2%;
+  height: auto;
+}
+#users .row-text {
+  border: #00ffff solid 3px;
+  border-radius: 10px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+#users strong {
+  font-weight: bold;
+  font-size: 2em;
+}
+#users img {
+  border-radius: 50%;
+}
+#users .name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#statistics strong {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: right;
+}
+#statistics .row-text {
+  border: #00ffff solid 3px;
+  border-radius: 10px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+#statistics .text {
+  font-weight: normal;
+}
+#cards {
+  background-color: #000000;
+}
+@media (max-width: 600px) {
+  .container2 {
+    background-color: aqua;
+    margin-top: 20px;
+    padding: 50px;
+    width: 100%;
+  }
+  #users {
+    width: 10%;
+    float: left;
+    border-radius: 2%;
+    height: 30px;
+    text-align: center;
+  }
+  #users strong {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  #users .row-text {
+    border: #00ffff solid 3px;
+    border-radius: 10px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  #statistics {
+    width: 45%;
+  }
+  #statistics .row-text {
+    border: #00ffff solid 3px;
+    border-radius: 10px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  #statistics strong {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: right;
+  }
+  #searching input[type='text'] {
+    width: 73%;
+    border: none;
+    border-bottom: 5px solid;
+    margin-right: 5px;
+  }
+}
